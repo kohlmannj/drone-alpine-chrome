@@ -1,4 +1,4 @@
-FROM zenika/alpine-chrome
+FROM kohlmannj/drone-alpine-chrome
 
 USER root
 RUN apk add --no-cache tini make gcc g++ python git nodejs nodejs-npm yarn wqy-zenhei \
@@ -6,5 +6,4 @@ RUN apk add --no-cache tini make gcc g++ python git nodejs nodejs-npm yarn wqy-z
     /var/cache/apk/* \
     /usr/share/man \
     /tmp/*
-USER chrome
 ENTRYPOINT ["tini", "--"]

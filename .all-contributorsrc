@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "kohlmannj",
+      "name": "Joseph Kohlmann",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/191304?v=4",
+      "profile": "https://github.com/kohlmannj",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    },
+    {
       "login": "jlandure",
       "name": "Julien Landuré",
       "avatar_url": "https://avatars2.githubusercontent.com/u/525974?v=4",
@@ -262,8 +272,8 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "alpine-chrome",
-  "projectOwner": "Zenika",
+  "projectName": "drone-alpine-chrome",
+  "projectOwner": "kohlmannj",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
